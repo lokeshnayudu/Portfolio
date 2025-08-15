@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh Manda | portfolio</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"> 
+    <link rel="stylesheet" href="LokeshManda.css">
+    <link rel="stylesheet" href="section.css">
+</head>
+<body>
+    <nav class="navbar">
+     <div class="logo">Lokesh Manda</div>
+        <ul class="menu-bar">
+            <li> <a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li> 
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="https://media.geeksforgeeks.org/courses/certificates/0279cb15523e87d6a8bc8166c4e87df3.pdf">Certificates</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar-menu">
+     <div class="logo">Lokesh Manda</div>
+     <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+        <ul class="menu-bar">
+            <li> <a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li> 
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="https://media.geeksforgeeks.org/courses/certificates/0279cb15523e87d6a8bc8166c4e87df3.pdf">Certificates</a></li>
+        </ul>
+    </nav>
+    <section class="sec1">
+    <div class="sec2"><img src="1e8357f0-5f54-42a5-86cd-7519a38a110f.png"></div>
+    <div class="sec3">
+        <span class="sec3-1">   Hello, I'm</span>
+        <h1 >Manda Naga Lokesh</h1>
+        <span class="sec3-2">front-end Developer</span>
+        <p>I’m a passionate front-end developer with a strong eye for design and a focus on creating seamless, user-friendly web experiences. Skilled in HTML, CSS, and JavaScript, I specialize in building responsive, accessible, and visually engaging interfaces. I have experience working with modern frameworks like React and Vue, optimizing performance, and ensuring cross-browser compatibility. My goal is to blend clean, efficient code with creative design to deliver websites that are both functional and aesthetically pleasing.</p>
+        <div class="btns">
+            <a href="MANDA NAGA LOKESH_Resume.pdf" download="MANDA NAGA LOKESH_Resume.pdf">Download CV</a>
+            <button onclick="window.location.href='tel:+917569772567'">Contact Info</button>
+        </div>
+        <div class= "social"><img src="linkedin.png" onclick="https://www.linkedin.com/in/lokesh-nayudu-manda-003098264" ><img src="github.png"></div>
+    </div>
+    </section>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const menu_bar  = document.querySelector(".navbar-menu .menu-bar");
+
+        hamburger.addEventListener("click",()=>{
+            menu_bar.classList.toggle("show")
+        });
+
+    </script>
+</body>
+</html>
